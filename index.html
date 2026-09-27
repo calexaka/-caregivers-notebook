@@ -1,0 +1,141 @@
+<title>Caregiver resources</title>
+<style>
+  :root {
+    --ink: #2b2620;
+    --muted: #7a7266;
+    --accent: #8a6d3b;
+    --bg: #fdfcfa;
+    --card: #ffffff;
+    --border: #e2ddd2;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ink: #f0ede6;
+      --muted: #b8b2a6;
+      --accent: #d4b878;
+      --bg: #1c1a17;
+      --card: #262320;
+      --border: #3a362f;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --ink: #f0ede6;
+    --muted: #b8b2a6;
+    --accent: #d4b878;
+    --bg: #1c1a17;
+    --card: #262320;
+    --border: #3a362f;
+    color-scheme: dark;
+  }
+  * { box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: Georgia, "Times New Roman", serif;
+    padding-inline: 20px;
+    padding-block: 40px 64px;
+  }
+  .wrap { max-width: 560px; margin: 0 auto; }
+  h1 {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 0 6px;
+    letter-spacing: 0.01em;
+  }
+  .sub {
+    color: var(--muted);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    margin: 0 0 32px;
+    line-height: 1.55;
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 16px 18px;
+    margin-bottom: 12px;
+  }
+  .card a {
+    color: inherit;
+    text-decoration: none;
+    display: block;
+  }
+  .name {
+    font-weight: 700;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 4px;
+  }
+  .detail {
+    color: var(--accent);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 13.5px;
+  }
+  .note {
+    color: var(--muted);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    margin-top: 40px;
+    line-height: 1.6;
+    border-top: 1px solid var(--border);
+    padding-top: 20px;
+  }
+</style>
+
+<div class="wrap">
+  <h1>Caregiver resources</h1>
+  <p class="sub">A living list of support lines and organizations, kept current for readers of the Caregiver's Notebook.</p>
+
+  <div class="card">
+    <a href="https://988lifeline.org" target="_blank" rel="noopener">
+      <span class="name">988 Suicide &amp; Crisis Lifeline</span>
+      <span class="detail">Call or text 988, 24/7</span>
+    </a>
+  </div>
+
+  <div class="card">
+    <a href="https://www.caregiver.org" target="_blank" rel="noopener">
+      <span class="name">Family Caregiver Alliance</span>
+      <span class="detail">caregiver.org</span>
+    </a>
+  </div>
+
+  <div class="card">
+    <a href="https://www.aarp.org/caregiving/" target="_blank" rel="noopener">
+      <span class="name">AARP Caregiving Resource Center</span>
+      <span class="detail">aarp.org/caregiving</span>
+    </a>
+  </div>
+
+  <div class="card">
+    <a href="https://eldercare.acl.gov" target="_blank" rel="noopener">
+      <span class="name">Eldercare Locator</span>
+      <span class="detail">eldercare.acl.gov &middot; 1-800-677-1116</span>
+    </a>
+  </div>
+
+  <div class="card">
+    <a href="https://www.caregiving.org" target="_blank" rel="noopener">
+      <span class="name">National Alliance for Caregiving</span>
+      <span class="detail">caregiving.org</span>
+    </a>
+  </div>
+
+  <div class="card">
+    <a href="https://www.alz.org/help-support" target="_blank" rel="noopener">
+      <span class="name">Alzheimer's Association 24/7 Helpline</span>
+      <span class="detail">1-800-272-3900</span>
+    </a>
+  </div>
+
+  <div class="card">
+    <a href="https://archrespite.org" target="_blank" rel="noopener">
+      <span class="name">Respite care finder</span>
+      <span class="detail">archrespite.org</span>
+    </a>
+  </div>
+
+  <p class="note">If a link here has changed, a web search for the organization's name will find its current page. This list is meant to be updated over time, so it stays useful long after printing.</p>
+</div>
